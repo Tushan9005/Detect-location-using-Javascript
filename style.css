@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'PT Serif', serif;
+}
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background: linear-gradient(#12c2e9,#c471ed,#f64f59);
+}
+button{
+	font-size: 50px;
+	padding: 25px 46px;
+	background: #fff;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	font-weight: 500;
+	color: blueviolet;
+	cursor: pointer;
+}
